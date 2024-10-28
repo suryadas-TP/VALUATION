@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*   font-family: "Rubik Wet Paint", system-ui; */
+
+.first-page {
+
+    background-image: linear-gradient(to right, rgb(198, 231, 244), rgb(240, 234, 235));
+
+}
+
+nav {
+
+    text-align: center;
+
+    padding: 1rem;
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+    justify-content: center;
+
+    padding: 1rem 0;
+}
+
+.menu h3 {
+    cursor: pointer;
+}
+
+.login h3 {
+    cursor: pointer;
+}
+
+.section-1 {
+
+    padding-left: 5rem;
+    padding-right: 4rem;
+
+    text-align: center;
+
+}
+
+.section-1 h1 {
+   
+    font-family: "Rubik Wet Paint", serif;
+}
+
+
+
+.care h1 {
+
+    font-size: 2.5rem;
+
+}
+
+.blue {
+    color: rgb(51, 159, 201);
+}
+
+.btns button {
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(231, 75, 143);
+    cursor: pointer;
+}
+
+.btns button:hover {
+    background-color: rgb(223, 75, 99);
+    color: white;
+}
+
+.dog-img {
+
+    /* border: 1px solid; */
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.dog-img>img {
+    width: 90%;
+}
+
+.section-2 {
+    padding: 0 2rem;
+}
+
+.container {
+    margin-top: 4rem;
+    background-image: linear-gradient(to right, rgb(172, 223, 243), rgb(237, 214, 218));
+    border-radius: 20px;
+    padding: 1rem 0;
+}
+
+
+.box {
+    /* border: 1px solid; */
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    cursor: pointer;
+    margin: 1rem auto;
+
+
+}
+
+.box:hover {
+    background-color: rgb(145, 225, 225);
+}
+
+
+
+.section-3 h2 {
+    font-size: 2.3rem;
+}
+
+.section-3-p {
+    /* border: 1px solid; */
+    width: 30rem;
+}
+
+.service {
+    padding: 40px;
+}
+
+.btns2 button {
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: rgb(189, 30, 131);
+    color: rgb(213, 52, 84);
+    cursor: pointer;
+}
+
+.btns2 button:hover {
+    background-color: rgb(228, 137, 156);
+    color: white;
+}
+
+
+
+.beagle button {
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: rgb(189, 30, 131);
+    color: rgb(213, 52, 84);
+    gap: 20px;
+    cursor: pointer;
+}
+
+.beagle button:hover {
+    background-color: rgb(222, 128, 147);
+    color: white;
+}
+
+.beagle-words {
+    /* border: 1px solid; */
+    width: 30rem;
+}
+
+.patti-petty {
+    margin-top: 40px;
+    border: 1px solid;
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    border-color: rgb(230, 89, 117);
+
+}
+.patti-petty:hover{
+   box-shadow:0 0 10px 1px rgb(232, 80, 87); 
+}
+
+.patti-petty img {
+
+    position: relative;
+    bottom: 70px;
+    right: 90px;
+}
+
+.c-d-container {
+
+    /* border: 1px solid; */
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(236, 212, 236);
+}
+
+.catdog-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.offer {
+    border: 1px solid;
+    border-color: rgb(198, 95, 198);
+    border-radius: 10px;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.offer h1 {
+    color: rgb(9, 85, 152);
+    display: flex;
+    justify-content: center;
+}
+
+.offer button {
+    width: 6rem;
+    height: 1.8rem;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: rgb(84, 166, 238);
+    background-color: rgb(84, 166, 238);
+    color: white;
+    cursor: pointer;
+
+}
+
+.offer button:hover {
+    background-color: rgb(6, 236, 248);
+}
+
+.offer-words {
+    width: 100%;
+
+}
+
+.offer-words h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-words p {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.section-6 {
+    /* border: 1px solid; */
+    height: 420px;
+}
+
+.review-page1 {
+    margin-top: 40px;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgb(195, 221, 250);
+}
+
+.review-page2 {
+    margin-top: 40px;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 170px;
+    background-color: rgb(245, 195, 250);
+}
+
+.review-page3 {
+    margin-top: 40px;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 340px;
+    background-color: rgb(247, 239, 239);
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.review-page-box {
+    /* border: 1px solid; */
+
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(189, 238, 238);
+}
+
+.review-page-box img {
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.container-7 {
+    background-color: rgb(222, 241, 241);
+    width: 100%;
+    height: fit-content;
+}
+
+.container-7 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-7 p {
+    display: flex;
+    justify-content: center;
+}
+
+.seventh-page-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spb1 {
+    border: 1px solid;
+    border-color: rgb(236, 135, 153);
+    border-radius: 5px;
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spb1:hover {
+    border-color: crimson;
+}
+
+.spb1 img {
+    width: 4rem;
+    position: relative;
+    bottom: 35px;
+    /* border: 1px solid; */
+    height: fit-content;
+}
+
+.spb2 {
+    border: 1px solid;
+    border-color: rgb(236, 135, 153);
+    border-radius: 5px;
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spb2:hover {
+    border-color: crimson;
+}
+
+.spb2 img {
+    width: 4rem;
+    position: relative;
+    bottom: 35px;
+    /* border: 1px solid; */
+    height: fit-content;
+}
+
+.spb3 {
+    border: 1px solid;
+    border-color: rgb(236, 135, 153);
+    border-radius: 5px;
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spb3:hover {
+    border-color: crimson;
+}
+
+.spb3 img {
+    width: 4rem;
+    position: relative;
+    bottom: 35px;
+    /* border: 1px solid; */
+    height: fit-content;
+}
+
+.spb4 {
+    border: 1px solid;
+    border-color: rgb(236, 135, 153);
+    border-radius: 5px;
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spb4:hover {
+    border-color: crimson;
+}
+
+.spb4 img {
+    width: 4rem;
+    position: relative;
+    bottom: 35px;
+    /* border: 1px solid; */
+    height: fit-content;
+}
+
+.container-8 {
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links img {
+    cursor: pointer;
+}
+
+
+@media (min-width:600px) {
+
+    nav {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        padding: 1rem 3rem;
+
+        align-items: center;
+
+    }
+
+    .login {
+        display: flex;
+        gap: 10px;
+    }
+
+    .section-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .care {
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .section-3 {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    .beagle {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .c-d-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .offer {
+        display: flex;
+        gap: 35px;
+        padding: 20px;
+    }
+
+    .section-6 {
+        width: 80%;
+        margin-left: 150px;
+        height: 300px;
+    }
+
+    .review-page3 {
+        height: 230px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .review-page-box img {
+        width: 7.5rem;
+    }
+
+    .jose-stars {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .jose-stars1 {
+        display: flex;
+        gap: 25px;
+    }
+
+    .container-7 {
+        height: 300px;
+    }
+
+    .seventh-page-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        height: 10rem;
+    }
+
+    .container-8 {
+        margin: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-around;
+    }
+}
